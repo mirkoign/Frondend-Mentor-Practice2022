@@ -1,0 +1,78 @@
+body {
+    background-color: bisque;
+    justify-content: center;
+}
+
+
+
+img {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 25%;
+}
+
+
+.card {
+    margin: 80px auto;
+    width: 20%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    height: 400px;
+    text-align: left;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 20px;
+    letter-spacing: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.price-one {
+    display: inline-block;
+    color: green;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.price-two {
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+
+button {
+    width: 300px;
+    background: url(images/icon-cart.svg) olive no-repeat 50px;
+    border-radius: 10px;
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+
+}
+
+.attribution {
+    text-align: center;
+}
