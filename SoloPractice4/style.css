@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: white;
+}
+
+.wrapper {
+    height: 600px;
+    margin: 5%;
+}
+
+.wrapper div {
+    background: #eee;
+    padding: 1em;
+    text-align: center;
+    margin: 4em;
+
+}
+
+.flex-container {
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.flex-item {
+    align-content: stretch;
+}
+
+.flex-item:nth-child(1) {
+    flex: auto;
+    background: url(images/icon-sedans.svg) no-repeat orange left 20% top 15%;
+    border-radius: 5% 0% 0% 5%;
+    margin: 0px;
+
+
+}
+
+.flex-item:nth-child(2) {
+    flex: auto;
+    background: url(images/icon-suvs.svg) no-repeat cadetblue left 20% top 15%;
+    margin: 0px
+}
+
+.flex-item:nth-child(3) {
+    flex: auto;
+    background: url(images/icon-luxury.svg) no-repeat teal left 20% top 15%;
+    border-radius: 0% 5% 5% 0%;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: start;
+    margin: 120px 0 0 80px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 50px 0 50px;
+    padding: 1em;
+}
+
+button {
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    opacity: 0.5;
+    margin-top: 60px;
+}
+
+.attribution{
+    text-align: center;
+    color: black;
+}
